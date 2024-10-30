@@ -13,8 +13,82 @@ body {
   justify-content: center;
 }
 
+fieldset {
+  border: none;
+}
 .container {
   height: 400px;
   width: 220px;
   background-color: white;
+}
+
+.content_container {
+  padding: 20px 30px;
+  /* text-align: center; */
+  .top-container {
+    text-align: center;
+    .logo {
+      width: 40%;
+
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 10px;
+      margin: 10px 0;
+
+      a {
+        text-decoration: none;
+        color: cornflowerblue;
+        cursor: pointer;
+      }
+    }
+  }
+
+  form {
+    input[type="password"],
+    input[type="email"] {
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      font-size: 8px;
+      width: 100%;
+      padding: 6px;
+    }
+
+    .check-ctr {
+      font-size: 10px;
+      display: flex;
+      /* align-items: center; */
+      gap: 5px;
+      margin-bottom: 10px;
+
+      label {
+        align-self: center;
+      }
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: cornflowerblue;
+      border-radius: 3px;
+      border: none;
+      padding: 6px 0;
+      font-size: 8px;
+      color: white;
+    }
+  }
+
+  .pw-forgot {
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+      color: grey;
+      font-size: 10px;
+      cursor: pointer;
+    }
+  }
 }
