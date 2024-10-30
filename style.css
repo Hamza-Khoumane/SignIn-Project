@@ -92,3 +92,19 @@ fieldset {
     }
   }
 }
+
+@media screen and (min-width: 600px) {
+  .container {
+    box-shadow: 16px 13px 30px -1px rgba(112, 112, 112, 0.75);
+    -webkit-box-shadow: 16px 13px 30px -1px rgba(112, 112, 112, 0.75);
+    -moz-box-shadow: 16px 13px 30px -1px rgba(112, 112, 112, 0.75);
+
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .container {
+    background-color: aqua;
+  }
+}
